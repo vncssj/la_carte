@@ -1021,3 +1021,583 @@ Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
 Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
 [main] - ROOT/webroot/index.php, line 40
 
+2021-04-09 17:41:23 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/la_carte/tmp/cache/models/myapp_cake_model_debug_kit_requests): failed to open stream: Permission denied in [/var/www/html/la_carte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 378]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 378
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 180
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 78
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 513
+Cake\ORM\Table::getPrimaryKey() - CORE/src/ORM/Table.php, line 653
+Cake\ORM\Marshaller::one() - CORE/src/ORM/Marshaller.php, line 182
+Cake\ORM\Table::newEntity() - CORE/src/ORM/Table.php, line 2751
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 261
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 66
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2021-04-09 17:41:23 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/la_carte/tmp/cache/models/myapp_cake_model_debug_kit_requests) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/la_carte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 378]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 378
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 150
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 85
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 513
+Cake\ORM\Table::getPrimaryKey() - CORE/src/ORM/Table.php, line 653
+Cake\ORM\Marshaller::one() - CORE/src/ORM/Marshaller.php, line 182
+Cake\ORM\Table::newEntity() - CORE/src/ORM/Table.php, line 2751
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 261
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 66
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2021-04-09 17:41:23 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/la_carte/tmp/cache/models/myapp_cake_model_debug_kit_panels) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/la_carte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 378]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 378
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 180
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 78
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 513
+Cake\ORM\Table::getPrimaryKey() - CORE/src/ORM/Table.php, line 653
+Cake\ORM\Marshaller::one() - CORE/src/ORM/Marshaller.php, line 182
+Cake\ORM\Table::newEntity() - CORE/src/ORM/Table.php, line 2751
+Cake\ORM\Association::__call() - CORE/src/ORM/Association.php, line 1183
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 278
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 66
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2021-04-09 17:41:23 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/la_carte/tmp/cache/models/myapp_cake_model_debug_kit_panels) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/la_carte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 378]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 378
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 150
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 85
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 513
+Cake\ORM\Table::getPrimaryKey() - CORE/src/ORM/Table.php, line 653
+Cake\ORM\Marshaller::one() - CORE/src/ORM/Marshaller.php, line 182
+Cake\ORM\Table::newEntity() - CORE/src/ORM/Table.php, line 2751
+Cake\ORM\Association::__call() - CORE/src/ORM/Association.php, line 1183
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 278
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 66
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2021-04-09 17:41:23 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/la_carte/tmp/cache/persistent/myapp_cake_core_translations.debug_kit.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/la_carte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 378]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 378
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 180
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 204
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 148
+__d - CORE/src/I18n/functions.php, line 98
+DebugKit\DebugTimer::getAll() - ROOT/vendor/cakephp/debug_kit/src/DebugTimer.php, line 135
+DebugKit\Panel\TimerPanel::data() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 112
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 267
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 66
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2021-04-09 17:41:23 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/la_carte/tmp/cache/persistent/myapp_cake_core_translations.default.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/la_carte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 378]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 378
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 180
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 204
+Cake\I18n\TranslatorRegistry::createInstance() - CORE/src/I18n/TranslatorRegistry.php, line 251
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 236
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 206
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 148
+__d - CORE/src/I18n/functions.php, line 98
+DebugKit\DebugTimer::getAll() - ROOT/vendor/cakephp/debug_kit/src/DebugTimer.php, line 135
+DebugKit\Panel\TimerPanel::data() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 112
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 267
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 66
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2021-04-09 17:41:23 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/la_carte/tmp/cache/persistent/myapp_cake_core_translations.default.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/la_carte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 378]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 378
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 150
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 207
+Cake\I18n\TranslatorRegistry::createInstance() - CORE/src/I18n/TranslatorRegistry.php, line 251
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 236
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 206
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 148
+__d - CORE/src/I18n/functions.php, line 98
+DebugKit\DebugTimer::getAll() - ROOT/vendor/cakephp/debug_kit/src/DebugTimer.php, line 135
+DebugKit\Panel\TimerPanel::data() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 112
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 267
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 66
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2021-04-09 17:41:23 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/la_carte/tmp/cache/persistent/myapp_cake_core_translations.debug_kit.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/la_carte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 378]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 378
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 150
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 207
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 148
+__d - CORE/src/I18n/functions.php, line 98
+DebugKit\DebugTimer::getAll() - ROOT/vendor/cakephp/debug_kit/src/DebugTimer.php, line 135
+DebugKit\Panel\TimerPanel::data() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 112
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 267
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 66
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2021-04-09 17:41:23 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/la_carte/tmp/cache/persistent/myapp_cake_core_translations.cake.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/la_carte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 378]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 378
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 180
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 204
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 148
+__d - CORE/src/I18n/functions.php, line 98
+Cake\I18n\Number::toReadableSize() - CORE/src/I18n/Number.php, line 118
+DebugKit\Panel\TimerPanel::summary() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 126
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 277
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 66
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2021-04-09 17:41:23 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/la_carte/tmp/cache/persistent/myapp_cake_core_translations.cake.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/la_carte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 378]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 378
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 150
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 207
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 148
+__d - CORE/src/I18n/functions.php, line 98
+Cake\I18n\Number::toReadableSize() - CORE/src/I18n/Number.php, line 118
+DebugKit\Panel\TimerPanel::summary() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 126
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 277
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 66
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2021-04-09 17:41:23 Warning: Unable to save request. This is probably due to concurrent requests.
+2021-04-09 17:41:23 Warning: PDOException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/la_carte/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+Stack trace:
+#0 /var/www/html/la_carte/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php(178): PDOStatement->execute(NULL)
+#1 /var/www/html/la_carte/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php(150): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#2 /var/www/html/la_carte/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php(41): Cake\Database\Statement\BufferedStatement->execute(NULL)
+#3 /var/www/html/la_carte/vendor/cakephp/cakephp/src/Database/Connection.php(341): Cake\Database\Statement\SqliteStatement->execute()
+#4 /var/www/html/la_carte/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php(70): Cake\Database\Connection->Cake\Database\{closure}()
+#5 /var/www/html/la_carte/vendor/cakephp/cakephp/src/Database/Connection.php(344): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#6 /var/www/html/la_carte/vendor/cakephp/cakephp/src/Database/Query.php(250): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#7 /var/www/html/la_carte/vendor/cakephp/cakephp/src/ORM/Table.php(2077): Cake\Database\Query->execute()
+#8 /var/www/html/la_carte/vendor/cakephp/cakephp/src/ORM/Table.php(1969): Cake\ORM\Table->_insert(Object(DebugKit\Model\Entity\Request), Array)
+#9 /var/www/html/la_carte/vendor/cakephp/cakephp/src/ORM/Table.php(1870): Cake\ORM\Table->_processSave(Object(DebugKit\Model\Entity\Request), Object(ArrayObject))
+#10 /var/www/html/la_carte/vendor/cakephp/cakephp/src/ORM/Table.php(1559): Cake\ORM\Table->Cake\ORM\{closure}()
+#11 /var/www/html/la_carte/vendor/cakephp/cakephp/src/Database/Connection.php(686): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#12 /var/www/html/la_carte/vendor/cakephp/cakephp/src/ORM/Table.php(1560): Cake\Database\Connection->transactional(Object(Closure))
+#13 /var/www/html/la_carte/vendor/cakephp/cakephp/src/ORM/Table.php(1871): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#14 /var/www/html/la_carte/vendor/cakephp/debug_kit/src/ToolbarService.php(283): Cake\ORM\Table->save(Object(DebugKit\Model\Entity\Request))
+#15 /var/www/html/la_carte/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(66): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /var/www/html/la_carte/vendor/cakephp/cakephp/src/Http/Runner.php(73): DebugKit\Middleware\DebugKitMiddleware->process(Object(Cake\Http\ServerRequest), Object(Cake\Http\Runner))
+#17 /var/www/html/la_carte/vendor/cakephp/cakephp/src/Http/Runner.php(58): Cake\Http\Runner->handle(Object(Cake\Http\ServerRequest))
+#18 /var/www/html/la_carte/vendor/cakephp/cakephp/src/Http/Server.php(90): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(App\Application))
+#19 /var/www/html/la_carte/webroot/index.php(40): Cake\Http\Server->run()
+#20 /var/www/html/la_carte/index.php(16): require('/var/www/html/l...')
+#21 {main}
+2021-04-09 17:41:23 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/html/la_carte/vendor/cakephp/cakephp/src/Error/Debugger.php line=970 in [/var/www/html/la_carte/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2021-04-09 17:41:23 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/la_carte/vendor/cakephp/cakephp/src/Error/Debugger.php:970) in [/var/www/html/la_carte/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2021-04-09 17:41:23 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/la_carte/vendor/cakephp/cakephp/src/Error/Debugger.php:970) in [/var/www/html/la_carte/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 201]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 201
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2021-04-09 17:41:32 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/la_carte/tmp/cache/models/myapp_cake_model_debug_kit_requests): failed to open stream: Permission denied in [/var/www/html/la_carte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 378]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 378
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 180
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 78
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 513
+Cake\ORM\Table::getPrimaryKey() - CORE/src/ORM/Table.php, line 653
+Cake\ORM\Marshaller::one() - CORE/src/ORM/Marshaller.php, line 182
+Cake\ORM\Table::newEntity() - CORE/src/ORM/Table.php, line 2751
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 261
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 66
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2021-04-09 17:41:32 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/la_carte/tmp/cache/models/myapp_cake_model_debug_kit_requests) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/la_carte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 378]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 378
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 150
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 85
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 513
+Cake\ORM\Table::getPrimaryKey() - CORE/src/ORM/Table.php, line 653
+Cake\ORM\Marshaller::one() - CORE/src/ORM/Marshaller.php, line 182
+Cake\ORM\Table::newEntity() - CORE/src/ORM/Table.php, line 2751
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 261
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 66
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2021-04-09 17:41:32 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/la_carte/tmp/cache/models/myapp_cake_model_debug_kit_panels) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/la_carte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 378]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 378
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 180
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 78
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 513
+Cake\ORM\Table::getPrimaryKey() - CORE/src/ORM/Table.php, line 653
+Cake\ORM\Marshaller::one() - CORE/src/ORM/Marshaller.php, line 182
+Cake\ORM\Table::newEntity() - CORE/src/ORM/Table.php, line 2751
+Cake\ORM\Association::__call() - CORE/src/ORM/Association.php, line 1183
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 278
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 66
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2021-04-09 17:41:32 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/la_carte/tmp/cache/models/myapp_cake_model_debug_kit_panels) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/la_carte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 378]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 378
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 150
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 85
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 513
+Cake\ORM\Table::getPrimaryKey() - CORE/src/ORM/Table.php, line 653
+Cake\ORM\Marshaller::one() - CORE/src/ORM/Marshaller.php, line 182
+Cake\ORM\Table::newEntity() - CORE/src/ORM/Table.php, line 2751
+Cake\ORM\Association::__call() - CORE/src/ORM/Association.php, line 1183
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 278
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 66
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2021-04-09 17:41:32 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/la_carte/tmp/cache/persistent/myapp_cake_core_translations.debug_kit.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/la_carte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 378]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 378
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 180
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 204
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 148
+__d - CORE/src/I18n/functions.php, line 98
+DebugKit\DebugTimer::getAll() - ROOT/vendor/cakephp/debug_kit/src/DebugTimer.php, line 135
+DebugKit\Panel\TimerPanel::data() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 112
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 267
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 66
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2021-04-09 17:41:32 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/la_carte/tmp/cache/persistent/myapp_cake_core_translations.default.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/la_carte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 378]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 378
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 180
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 204
+Cake\I18n\TranslatorRegistry::createInstance() - CORE/src/I18n/TranslatorRegistry.php, line 251
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 236
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 206
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 148
+__d - CORE/src/I18n/functions.php, line 98
+DebugKit\DebugTimer::getAll() - ROOT/vendor/cakephp/debug_kit/src/DebugTimer.php, line 135
+DebugKit\Panel\TimerPanel::data() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 112
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 267
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 66
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2021-04-09 17:41:32 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/la_carte/tmp/cache/persistent/myapp_cake_core_translations.default.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/la_carte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 378]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 378
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 150
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 207
+Cake\I18n\TranslatorRegistry::createInstance() - CORE/src/I18n/TranslatorRegistry.php, line 251
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 236
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 206
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 148
+__d - CORE/src/I18n/functions.php, line 98
+DebugKit\DebugTimer::getAll() - ROOT/vendor/cakephp/debug_kit/src/DebugTimer.php, line 135
+DebugKit\Panel\TimerPanel::data() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 112
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 267
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 66
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2021-04-09 17:41:32 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/la_carte/tmp/cache/persistent/myapp_cake_core_translations.debug_kit.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/la_carte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 378]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 378
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 150
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 207
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 148
+__d - CORE/src/I18n/functions.php, line 98
+DebugKit\DebugTimer::getAll() - ROOT/vendor/cakephp/debug_kit/src/DebugTimer.php, line 135
+DebugKit\Panel\TimerPanel::data() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 112
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 267
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 66
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2021-04-09 17:41:32 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/la_carte/tmp/cache/persistent/myapp_cake_core_translations.cake.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/la_carte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 378]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 378
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 180
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 204
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 148
+__d - CORE/src/I18n/functions.php, line 98
+Cake\I18n\Number::toReadableSize() - CORE/src/I18n/Number.php, line 118
+DebugKit\Panel\TimerPanel::summary() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 126
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 277
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 66
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2021-04-09 17:41:32 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/la_carte/tmp/cache/persistent/myapp_cake_core_translations.cake.en_US) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/html/la_carte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 378]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 378
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 150
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 207
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 148
+__d - CORE/src/I18n/functions.php, line 98
+Cake\I18n\Number::toReadableSize() - CORE/src/I18n/Number.php, line 118
+DebugKit\Panel\TimerPanel::summary() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 126
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 277
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 66
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2021-04-09 17:41:32 Warning: Unable to save request. This is probably due to concurrent requests.
+2021-04-09 17:41:32 Warning: PDOException: SQLSTATE[HY000]: General error: 8 attempt to write a readonly database in /var/www/html/la_carte/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+Stack trace:
+#0 /var/www/html/la_carte/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php(178): PDOStatement->execute(NULL)
+#1 /var/www/html/la_carte/vendor/cakephp/cakephp/src/Database/Statement/BufferedStatement.php(150): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#2 /var/www/html/la_carte/vendor/cakephp/cakephp/src/Database/Statement/SqliteStatement.php(41): Cake\Database\Statement\BufferedStatement->execute(NULL)
+#3 /var/www/html/la_carte/vendor/cakephp/cakephp/src/Database/Connection.php(341): Cake\Database\Statement\SqliteStatement->execute()
+#4 /var/www/html/la_carte/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php(70): Cake\Database\Connection->Cake\Database\{closure}()
+#5 /var/www/html/la_carte/vendor/cakephp/cakephp/src/Database/Connection.php(344): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#6 /var/www/html/la_carte/vendor/cakephp/cakephp/src/Database/Query.php(250): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#7 /var/www/html/la_carte/vendor/cakephp/cakephp/src/ORM/Table.php(2077): Cake\Database\Query->execute()
+#8 /var/www/html/la_carte/vendor/cakephp/cakephp/src/ORM/Table.php(1969): Cake\ORM\Table->_insert(Object(DebugKit\Model\Entity\Request), Array)
+#9 /var/www/html/la_carte/vendor/cakephp/cakephp/src/ORM/Table.php(1870): Cake\ORM\Table->_processSave(Object(DebugKit\Model\Entity\Request), Object(ArrayObject))
+#10 /var/www/html/la_carte/vendor/cakephp/cakephp/src/ORM/Table.php(1559): Cake\ORM\Table->Cake\ORM\{closure}()
+#11 /var/www/html/la_carte/vendor/cakephp/cakephp/src/Database/Connection.php(686): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#12 /var/www/html/la_carte/vendor/cakephp/cakephp/src/ORM/Table.php(1560): Cake\Database\Connection->transactional(Object(Closure))
+#13 /var/www/html/la_carte/vendor/cakephp/cakephp/src/ORM/Table.php(1871): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#14 /var/www/html/la_carte/vendor/cakephp/debug_kit/src/ToolbarService.php(283): Cake\ORM\Table->save(Object(DebugKit\Model\Entity\Request))
+#15 /var/www/html/la_carte/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(66): DebugKit\ToolbarService->saveData(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /var/www/html/la_carte/vendor/cakephp/cakephp/src/Http/Runner.php(73): DebugKit\Middleware\DebugKitMiddleware->process(Object(Cake\Http\ServerRequest), Object(Cake\Http\Runner))
+#17 /var/www/html/la_carte/vendor/cakephp/cakephp/src/Http/Runner.php(58): Cake\Http\Runner->handle(Object(Cake\Http\ServerRequest))
+#18 /var/www/html/la_carte/vendor/cakephp/cakephp/src/Http/Server.php(90): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(App\Application))
+#19 /var/www/html/la_carte/webroot/index.php(40): Cake\Http\Server->run()
+#20 /var/www/html/la_carte/index.php(16): require('/var/www/html/l...')
+#21 {main}
+2021-04-09 17:41:32 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/html/la_carte/vendor/cakephp/cakephp/src/Error/Debugger.php line=970 in [/var/www/html/la_carte/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2021-04-09 17:41:32 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/la_carte/vendor/cakephp/cakephp/src/Error/Debugger.php:970) in [/var/www/html/la_carte/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2021-04-09 17:41:32 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/la_carte/vendor/cakephp/cakephp/src/Error/Debugger.php:970) in [/var/www/html/la_carte/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 201]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 201
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
