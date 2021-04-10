@@ -33,3 +33,14 @@ typewriter
     .typeString('<strong>Você.</strong>')
     .pauseFor(2000)
     .start();
+
+var categorias = [];
+$("#add-categoria").click(function(e) {
+    e.preventDefault();
+    categoria = $("#titulo").val();
+    categorias.push(categoria);
+    $("#titulo").val('')
+    if (categoria.length > 0) {
+        $("#list-categorias").append('<li class="list-group-item">' + categoria + '</li>');
+    }
+});

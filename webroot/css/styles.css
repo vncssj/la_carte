@@ -1,27 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 body {
     background-color: #FF8E5A;
 }
 
 .new-carte {
-    padding-top: 10%;
+    padding: 5% 0;
 }
 
-.new-carte h1 {
-    color: #FFF;
-    margin-bottom: 50px;
+.form-create {
+    padding: 0 5%;
+}
+
+.cartes h1 {
+    color: #FF8E5A;
+    margin: 50px;
     font-size: 40px;
-    font-family: 'Open Sans Condensed';
+    font-family: 'Satisfy';
 }
 
 .pre-input {
     border: 1px solid #ccc;
     border-radius: 5px;
-    padding: 5px;
-    margin: 20px auto;
+    margin: 10px auto;
+    position: relative;
+}
+
+.input-carte:focus {
+    border-bottom: 1px solid #FF8E5A;
+}
+
+.pre-input label {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    padding: 0 5px;
+    background-color: #FFFFFF;
+    color: #FF8E5A;
+    transition: all .3s ease-out;
+    font-size: 18px;
+}
+
+.input-carte::placeholder {
+    color: transparent;
+}
+
+.input-carte:not(:placeholder-shown)+label {
+    color: blue !important;
+}
+
+.input-carte:focus~label,
+.input-carte:not(:placeholder-shown)+label {
+    top: -11px;
+    left: 20px;
+    font-size: 14px;
 }
 
 .input-carte {
     border: 0 !important;
+    font-size: 22px;
+    padding: 24px 20px !important;
+    height: 48px;
+}
+
+.etapas {
+    font-size: 26px;
+    color: #FF8E5A;
+    font-family: 'Satisfy';
+}
+
+.divisoria {
+    border-left: 1px solid #FF8E5A;
+}
+
+.add-categoria {
     font-size: 24px;
+    color: #FF8E5A;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+
+.list-group-item {
+    margin-bottom: 0;
+}
+
+#list-categorias li {
+    font-size: 18px;
 }
